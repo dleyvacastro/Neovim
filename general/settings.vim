@@ -38,5 +38,12 @@ set clipboard=unnamedplus               " Copy paste between vim and everything 
 
 au! BufWritePost $MYVIMRC source %      " auto source when writing to init.vm alternatively you can run :source $MYVIMRC
 
+augroup vimrc
+  autocmd!
+augroup END
+
+autocmd vimrc FileType cpp setlocal shiftwidth=2 tabstop=2
+autocmd vimrc FileType hpp setlocal shiftwidth=2 tabstop=2
+
 " You can't stop me
 cmap w!! w !sudo tee %

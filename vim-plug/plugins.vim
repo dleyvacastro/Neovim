@@ -19,6 +19,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'jiangmiao/auto-pairs'
     " Theme
     Plug 'joshdick/onedark.vim'
+    Plug 'glepnir/oceanic-material'
     " Status line  
     Plug 'vim-airline/vim-airline'
     Plug 'vim-airline/vim-airline-themes'

@@ -12,7 +12,7 @@ let g:airline#extensions#tabline#enabled = 1
 let g:airline_powerline_fonts = 1
 
 " Switch to your current theme
-let g:airline_theme = 'onedark'
+let g:airline_theme = 'selenized'
 let g:Powerline_symbols = 'fancy'
 " Always show tabs
 set showtabline=2
