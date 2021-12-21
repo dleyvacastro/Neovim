@@ -8,7 +8,7 @@ set background=dark
 colorscheme oceanic_material
 syntax on
 
-
+let g:airline_theme = 'selenized'
 " checks if your terminal has 24-bit color support
 if (has("termguicolors"))
     set termguicolors

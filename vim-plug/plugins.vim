@@ -20,6 +20,9 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     " Theme
     Plug 'joshdick/onedark.vim'
     Plug 'glepnir/oceanic-material'
+    Plug 'shaunsingh/nord.nvim'
+    Plug 'Mofiqul/dracula.nvim'
+
     " Status line  
     Plug 'vim-airline/vim-airline'
     Plug 'vim-airline/vim-airline-themes'
